@@ -36,3 +36,22 @@ Once in a while I like to create a clean install on my Mac. This is a list of al
 1. **Transmission** - Fantastic lightweight torrent client
 1. **VLC** - Without a doubt the best MacOS media player
 
+--
+
+# Removal of Native MacOS Applications
+I also have a habit of removing native applications that I don't use. This is probably overkill, but I like my OS to be sparkly clean when I start using it. These
+
+### Native Apps I Remove:
+1. Chess
+2. Books
+3. Siri
+4. Dashboard
+5. iTunes
+6. Maps
+7. Pages
+8. GarageBand
+9. TextEdit
+10. Reminders
+11. QuickTime
+12. Photobooth
+13. Safari
