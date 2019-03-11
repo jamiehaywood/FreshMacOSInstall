@@ -55,3 +55,7 @@ I also have a habit of removing native applications that I don't use. This is pr
 11. QuickTime
 12. Photobooth
 13. Safari
+
+--
+# Chrome Addons
+--
