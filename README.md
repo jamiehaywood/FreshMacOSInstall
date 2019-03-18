@@ -49,7 +49,6 @@ Once in a while I like to create a clean install on my Mac. This is a list of al
 1. [**CarbonCopyCloner**](https://bombich.com/) - Great for creating an exact clone of my desktop.
 
 
---
 # Removal of Native MacOS Applications
 I also have a habit of removing native applications that I don't use. This is probably overkill, but I like my OS to be sparkly clean when I start using it. These
 
@@ -68,7 +67,7 @@ I also have a habit of removing native applications that I don't use. This is pr
 12. Photobooth
 13. Safari
 
---
+
 # Chrome Addons
 These chrome addons massively improve my productivity and provide me with useful information when browsing the web:
 
@@ -79,7 +78,7 @@ These chrome addons massively improve my productivity and provide me with useful
 1. [**uBlock Origin**](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) & [**Extra**](https://chrome.google.com/webstore/detail/ublock-origin-extra/pgdnlhfefecpicbbihgmbmffkjpaplco) - Best in class adblocking addon
 1. [**Mendeley Importer**](https://chrome.google.com/webstore/detail/mendeley-importer/dagcmkpagjlhakfdhnbomgmjdpkdklff) - Great for importing citation of websites/papers 
 
---
+
 # Useful settings
 A couple of system settings that I have set up to my preference.
 
