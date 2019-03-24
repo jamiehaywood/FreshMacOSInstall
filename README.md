@@ -1,4 +1,5 @@
 # Things I want on a fresh install of OS X
+---
 
 Once in a while I like to create a clean install on my Mac. This is a list of all the software that I have on my clean image.
 
@@ -33,6 +34,7 @@ Once in a while I like to create a clean install on my Mac. This is a list of al
 1. [**Paste**](https://pasteapp.me/) - Without a doubt my favourite productivity tool. Saves all things copied to the clipboard.
 1. [**Itsycal**](https://www.mowglii.com/itsycal/) - Awesome macOS toolbar utility that displays date and time in the toolbar. On click shows a mini calendar. "HH:mm E d MMM" <-- my display preferences.
 1. [**Mendeley**](https://www.mendeley.com/download-desktop/) - Hands down the best citation software, with top notch integration with Word.
+1. [**Amphetamine**](https://itunes.apple.com/gb/app/amphetamine/id937984704?mt=12) - Stops mac from sleeping. More powerful features include keep awake based on a given app.
 
 ### Other Utilities:
 1. [**DiskInventoryX**](http://www.derlien.com/) - Visualise the space on your mac
@@ -50,6 +52,7 @@ Once in a while I like to create a clean install on my Mac. This is a list of al
 
 
 # Removal of Native MacOS Applications
+---
 I also have a habit of removing native applications that I don't use. This is probably overkill, but I like my OS to be sparkly clean when I start using it. These
 
 ### Native Apps I Remove:
@@ -69,6 +72,7 @@ I also have a habit of removing native applications that I don't use. This is pr
 
 
 # Chrome Addons
+---
 These chrome addons massively improve my productivity and provide me with useful information when browsing the web:
 
 1. [**The Great Suspender**](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) - This suspends any tabs inactive for more than 5 mins. Great for reducing Chrome's memory overhead
@@ -79,8 +83,6 @@ These chrome addons massively improve my productivity and provide me with useful
 1. [**Mendeley Importer**](https://chrome.google.com/webstore/detail/mendeley-importer/dagcmkpagjlhakfdhnbomgmjdpkdklff) - Great for importing citation of websites/papers 
 
 
-# Useful settings
-A couple of system settings that I have set up to my preference.
-
-**Mouse tracking speed:** 9/10 <br/>
-**Trackpad tracking speed:** 8/10 <br/>
+# Scripts
+---
+A script for installing this software and adjusting settings is in progress 🚧
