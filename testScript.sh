@@ -4,6 +4,25 @@ echo "Enter your preferred GIT name"
 read gitglobaluser
 echo "Enter your preferred GIT email"
 read gitglobalemail
+echo "Type your GitHub username and press enter"
+read GHUSER
+
+# Install apps from anywhere
+sudo spctl --master-disable
+
+# Setting the natural scroll direction to false
+defaults write -g com.apple.swipescrolldirection -bool NO
+
+# Setting the key repeat speed higher than default
+defaults write -g InitialKeyRepeat -int 10
+
+## Set mouse speed
+defaults write -g com.apple.mouse.scaling  10.0
+
+# Show Hard Drives & removeable media on Desktop
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+killall -HUP Finder
 
 ## Installing xCode Tools
 xcode-select --install
@@ -28,6 +47,7 @@ brew upgrade && brew update
 
 ## Installing Cask
 brew install cask
+
 ## Set mouse speed
 defaults write -g com.apple.mouse.scaling  10.0
 
@@ -45,8 +65,6 @@ git config --global color.ui true
 cd ~ 
 mkdir GitHub\ Repos
 cd ~/GitHub\ Repos
-echo "Type your GitHub username and press enter"
-read GHUSER
 curl "https://api.github.com/users/$GHUSER/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone |
 
 
