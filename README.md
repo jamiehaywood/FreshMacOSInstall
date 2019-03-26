@@ -83,6 +83,11 @@ These chrome addons massively improve my productivity and provide me with useful
 1. [**Mendeley Importer**](https://chrome.google.com/webstore/detail/mendeley-importer/dagcmkpagjlhakfdhnbomgmjdpkdklff) - Great for importing citation of websites/papers 
 
 
+# VSCode settings & Addons
+---
+[VSCode Sync](http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html)
+
+
 # Scripts
 ---
 A script for installing this software and adjusting settings is in progress 🚧
