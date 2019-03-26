@@ -37,6 +37,7 @@ declare -a taps=(
   'caskroom/versions'
   'homebrew/bundle'
   'homebrew/core'
+  'jamiehaywood/software'
 )
 
 for tap in "${taps[@]}"; do
@@ -108,4 +109,11 @@ duti -s com.microsoft.VSCode .jsx all
 duti -s com.microsoft.VSCode .tsx all
 duti -s com.microsoft.VSCode .html all
 duti -s com.microsoft.VSCode .css all
-
+duti -s org.videolan.vlc .mp4 all
+duti -s org.videolan.vlc .m4v all
+duti -s org.videolan.vlc .avi all
+duti -s org.videolan.vlc .wmv all
+duti -s org.videolan.vlc .mov all
+duti -s org.videolan.vlc .mp3 all
+duti -s org.videolan.vlc .aac all
+duti -s com.sublimetext.3 .txt all
