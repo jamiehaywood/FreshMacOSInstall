@@ -106,6 +106,18 @@ sudo spctl --master-disable
 # Setting the natural scroll direction to false
 defaults write -g com.apple.swipescrolldirection -bool NO
 
+# Display battery percentage in menu bar
+defaults write com.apple.menuextra.battery ShowPercent YES
+
+# Remove notification Center menu bar icon
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
+# killall NotificationCenter
+#
+
+# Display Day, Date & Time
+defaults write com.apple.menuextra.clock "DateFormat" 'HH:mm E d MMM'
+killall -KILL SystemUIServer
+
 # Setting the key repeat speed higher than default
 defaults write -g InitialKeyRepeat -int 12
 
@@ -130,7 +142,6 @@ declare -a taps=(
   'caskroom/versions'
   'homebrew/bundle'
   'homebrew/core'
-  'jamiehaywood/software'
 )
 
 for tap in "${taps[@]}"; do
@@ -210,5 +221,4 @@ duti -s org.videolan.vlc .mov all
 duti -s org.videolan.vlc .mp3 all
 duti -s org.videolan.vlc .aac all
 duti -s com.sublimetext.3 .txt all
-
 ```
