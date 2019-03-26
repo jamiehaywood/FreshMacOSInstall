@@ -48,8 +48,8 @@ brew upgrade && brew update
 ## Installing Cask
 brew install cask
 
-## Set mouse speed
-defaults write -g com.apple.mouse.scaling  10.0
+## Deep fetch of all Casks on homebrew core
+git -C "$(brew --repo homebrew/core)" fetch --unshallow
 
 ## Installing GIT
 brew install git
