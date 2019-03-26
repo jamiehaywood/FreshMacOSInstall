@@ -14,10 +14,10 @@ sudo spctl --master-disable
 defaults write -g com.apple.swipescrolldirection -bool NO
 
 # Setting the key repeat speed higher than default
-defaults write -g InitialKeyRepeat -int 10
+defaults write -g InitialKeyRepeat -int 12
 
 ## Set mouse speed
-defaults write -g com.apple.mouse.scaling  10.0
+defaults write -g com.apple.mouse.scaling  4
 
 # Show Hard Drives & removeable media on Desktop
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
