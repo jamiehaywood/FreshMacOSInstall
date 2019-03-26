@@ -99,4 +99,13 @@ mkdir GitHub\ Repos
 cd ~/GitHub\ Repos
 curl "https://api.github.com/users/$GHUSER/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone |
 
+## Set default apps
+duti -s com.uranusjr.macdown .md all
+duti -s com.macpaw.site.theunarchiver .rar all
+duti -s com.macpaw.site.theunarchiver .tar all
+duti -s com.microsoft.VSCode .js all
+duti -s com.microsoft.VSCode .jsx all
+duti -s com.microsoft.VSCode .tsx all
+duti -s com.microsoft.VSCode .html all
+duti -s com.microsoft.VSCode .css all
 
