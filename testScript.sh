@@ -141,7 +141,6 @@ git -C "$(brew --repo homebrew/core)" fetch --unshallow
 
 declare -a apps=(
   'visual-studio-code'
-  'node'
   'sublime-text'
   'macdown'
   'postman'
@@ -164,6 +163,9 @@ declare -a apps=(
   'spotify'
   'duti'
   '1password'
+  'ngrok'
+  'clockify'
+  
 )
 
 for app in "${apps[@]}"; do
@@ -172,6 +174,9 @@ done
 
 ## Installing GIT
 brew install git
+
+# Updating bash
+brew install bash
 
 ## Configuring GIT
 git config --global user.name "$gitglobaluser"
