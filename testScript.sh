@@ -140,30 +140,30 @@ git -C "$(brew --repo homebrew/core)" fetch --unshallow
 
 
 declare -a apps=(
-  ‘visual-studio-code’
-  ‘node’
-  ‘sublime-text’
-  ‘macdown’
-  ‘postman’
-  ‘the-unarchiver’
-  ‘slack’
-  ‘skala-preview’
-  ‘google-backup-and-sync’
-  ‘google-chrome’
-  ‘microsoft-office’
-  ‘itsycal’
-  ‘mendeley’
-  ‘keepingyouawake’
-  ‘disk-inventory-x’
-  ‘teamviewer’
-  ‘tunnelblick’
-  ‘transmission’
-  ‘vlc’
-  ‘nordvpn’
-  ‘calibre’
-  ‘spotify’
-  ‘duti’
-  ‘1password’
+  'visual-studio-code'
+  'node'
+  'sublime-text'
+  'macdown'
+  'postman'
+  'the-unarchiver'
+  'slack'
+  'skala-preview'
+  'google-backup-and-sync'
+  'google-chrome'
+  'microsoft-office'
+  'itsycal'
+  'mendeley'
+  'keepingyouawake'
+  'disk-inventory-x'
+  'teamviewer'
+  'tunnelblick'
+  'transmission'
+  'vlc'
+  'nordvpn'
+  'calibre'
+  'spotify'
+  'duti'
+  '1password'
 )
 
 for app in "${apps[@]}"; do
