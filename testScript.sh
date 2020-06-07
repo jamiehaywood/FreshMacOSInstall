@@ -1,5 +1,4 @@
 #! /bin/bash
-## Declaring all user variables first so I can go and get a coffee
 echo "Enter your preferred GIT name"
 read gitglobaluser
 echo "Enter your preferred GIT email"
@@ -120,8 +119,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## Add Homebrew repos & update
 declare -a taps=(
   'buo/cask-upgrade'
-  'caskroom/cask'
-  'caskroom/versions'
+  'homebrew/cask-cask'
+  'homebrew/cask-versions'
   'homebrew/bundle'
   'homebrew/core'
   'jamiehaywood/software'
