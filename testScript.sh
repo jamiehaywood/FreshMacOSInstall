@@ -119,7 +119,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## Add Homebrew repos & update
 declare -a taps=(
   'buo/cask-upgrade'
-  'homebrew/cask-cask'
+  'homebrew/cask'
   'homebrew/cask-versions'
   'homebrew/bundle'
   'homebrew/core'
